@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143e32">
+  <meta name="description" content="نسخة مستقلة لمعاينة كورسات اللغة الإنجليزية مع الأستاذة فاطمة، من زاد المعرفة.">
+  <title>English with Miss Fatma | زاد المعرفة</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/data.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">انتقل للمحتوى</a>
+  <div class="preview-bar"><div class="container">نسخة مستقلة للمعاينة <span aria-hidden="true">·</span> محتوى وأسعار توضيحية</div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/home" aria-label="زاد المعرفة، الصفحة الرئيسية">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M20 12v21M20 15C15 10 10 10 5 11v19c5-1 10-1 15 3 5-4 10-4 15-3V11c-5-1-10-1-15 4Z" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="m20 4 2 4-2 4-2-4 2-4Z" fill="currentColor"/></svg></span>
+        <span class="brand-name">زاد المعرفة<small lang="en" dir="ltr">English with Miss Fatma</small></span>
+      </a>
+      <button type="button" class="menu-toggle icon-button" aria-label="افتح القائمة" aria-expanded="false" aria-controls="main-nav"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <nav id="main-nav" class="main-nav" aria-label="القائمة الرئيسية">
+        <a href="#/home" data-nav="home">الرئيسية</a>
+        <a href="#/courses" data-nav="courses">الكورسات</a>
+        <a href="#/student" data-nav="student">كورساتي <span id="enrollment-count" class="nav-count" hidden>0</span></a>
+        <a class="button button-small button-outline nav-quiz" href="#/quiz" data-nav="quiz">اختبر مستواك</a>
+      </nav>
+    </div>
+  </header>
+  <div id="storage-notice" class="container" hidden><p class="notice">المتصفح لا يسمح بحفظ التقدم حاليًا. تقدر تجرب كل الوظائف، لكن التقدم سيستمر حتى إغلاق الصفحة فقط.</p></div>
+  <main id="main" tabindex="-1"><div class="container initial-state"><h1>اللغة الإنجليزية مع الأستاذة فاطمة</h1><p>جاري تجهيز الكورسات…</p></div></main>
+  <noscript><div class="container notice">فعّل JavaScript في المتصفح لعرض الكورسات وتجربة الدروس والاختبار.</div></noscript>
+  <footer class="site-footer">
+    <div class="container footer-inner"><div><strong>زاد المعرفة</strong><span class="footer-separator" aria-hidden="true"> / </span><span lang="en" dir="ltr">English with Miss Fatma</span><p>خطوة جديدة في رحلتك مع اللغة الإنجليزية.</p></div><div class="footer-note">نسخة تجريبية مستقلة <span>التقدم محفوظ على هذا المتصفح عند السماح بالتخزين.</span></div></div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><div class="dialog-body"><h2 id="reset-title">مسح التقدم التجريبي؟</h2><p>سيتم حذف الكورسات المضافة والدروس المكتملة ونتيجة الاختبار من هذا المتصفح.</p><div class="dialog-actions"><button class="button button-danger" id="confirm-reset" type="button">امسح التقدم</button><button class="button button-outline" id="cancel-reset" type="button" autofocus>إلغاء</button></div></div></dialog>
+</body>
+</html>
